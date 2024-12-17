@@ -3,3 +3,6 @@ resolver = "2"
 members = [
     "crates/*",
 ]
+
+[workspace.dependencies]
+foo = { path = "../workspace_one/crates/foo"}
