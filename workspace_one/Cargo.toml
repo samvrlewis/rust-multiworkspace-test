@@ -2,3 +2,7 @@
 members = [
     "crates/*",
 ]
+
+[workspace.package]
+repository = "https://github.com/samvrlewis/rust-multiworkspace-test"
+description = "Something"
